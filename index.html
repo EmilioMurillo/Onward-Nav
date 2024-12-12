@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onward - Empowering Code Literacy</title>
+    <link rel="stylesheet" href="master.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Onward</div>
+        <span class="menu-toggle">☰</span>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li>
+                <a href="#about">About Us</a>
+                <ul class="dropdown">
+                    <li><a href="#mission">Our Mission</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#history">History</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#programs">Programs</a>
+                <ul class="dropdown">
+                    <li><a href="#html-css-js">HTML, CSS, and JS Classes</a></li>
+                    <li><a href="#ai-coding">AI Coding Curriculum</a></li>
+                    <li><a href="#collaborations">Collaborations</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#resources">Resources</a>
+                <ul class="dropdown">
+                    <li><a href="#tutorials">Tutorials</a></li>
+                    <li><a href="#tools">Coding Tools</a></li>
+                    <li><a href="#guides">Guides</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#testimonials">Testimonials</a>
+                <ul class="dropdown">
+                    <li><a href="#students">Student Stories</a></li>
+                    <li><a href="#partners">Partner Feedback</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#donate" class="cta">Donate</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
+
